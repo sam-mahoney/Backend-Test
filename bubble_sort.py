@@ -20,6 +20,6 @@ def bubble_sort(arr):
     return arr
 
 
-x = random.sample(list(range(0, 40000)), 40000)
+x = random.sample(list(range(0, 17000)), 17000)
 y = bubble_sort(x)
 print(y)
