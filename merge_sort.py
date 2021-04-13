@@ -34,6 +34,6 @@ def merge(left, right, merged):
     return merged
 
 
-x = random.sample(list(range(0, 100000)), 100000)
+x = random.sample(list(range(0, 17000)), 17000)
 y = merge_sort(x)
 print(y)
