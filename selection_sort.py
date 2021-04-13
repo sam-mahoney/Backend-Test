@@ -17,6 +17,6 @@ def selection_sort(arr):
     return arr
 
 
-x = random.sample(list(range(0, 100000)), 100000)
+x = random.sample(list(range(0, 17000)), 17000)
 y = selection_sort(x)
 print(y)
